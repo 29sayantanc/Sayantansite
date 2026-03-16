@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sayantan Chatterjee",
   description:
-    "Customer Success Leader & AI Builder. Building products that solve real problems.",
+    "Customer Success Leader & AI Builder with over 9 years of experience driving enterprise revenue. Evenings, I build AI-powered products that solve real-world problems.",
   metadataBase: new URL("https://sayantan.site"),
   icons: {
     icon: "/favicon.svg",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sayantan Chatterjee",
     description:
-      "Customer Success Leader & AI Builder. Building products that solve real problems.",
+      "Customer Success Leader & AI Builder with over 9 years of experience driving enterprise revenue. Evenings, I build AI-powered products that solve real-world problems.",
     url: "https://sayantan.site",
     siteName: "Sayantan Chatterjee",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sayantan Chatterjee",
     description:
-      "Customer Success Leader & AI Builder. Building products that solve real problems.",
+      "Customer Success Leader & AI Builder with over 9 years of experience driving enterprise revenue. Evenings, I build AI-powered products that solve real-world problems.",
     images: ["/og-image.png"],
   },
   robots: {
