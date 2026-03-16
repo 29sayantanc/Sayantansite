@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Sayantan Chatterjee",
   description:
     "Customer Success Leader & AI Builder. Building products that solve real problems.",
+  metadataBase: new URL("https://sayantan.site"),
   icons: {
     icon: "/favicon.svg",
   },
@@ -23,7 +24,29 @@ export const metadata: Metadata = {
     title: "Sayantan Chatterjee",
     description:
       "Customer Success Leader & AI Builder. Building products that solve real problems.",
+    url: "https://sayantan.site",
+    siteName: "Sayantan Chatterjee",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sayantan Chatterjee — Customer Success Leader & AI Builder",
+      },
+    ],
     type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sayantan Chatterjee",
+    description:
+      "Customer Success Leader & AI Builder. Building products that solve real problems.",
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
