@@ -69,6 +69,25 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Sayantan Chatterjee",
+              url: "https://sayantan.site",
+              jobTitle: "Customer Success Leader & AI Builder",
+              description:
+                "Customer Success Leader with over 9 years of experience driving revenue. AI product builder.",
+              image: "https://sayantan.site/me.jpeg",
+              sameAs: [
+                "https://www.linkedin.com/in/sayantan-chatterjee-05a8a5a3/",
+                "https://github.com/29sayantanc",
+              ],
+            }),
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
