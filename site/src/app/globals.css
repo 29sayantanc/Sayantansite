@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--fg);
+  --color-muted: var(--mt);
+  --color-accent: var(--ac);
+  --color-border: var(--bd);
+  --color-card: var(--cd);
+  --color-highlight: var(--hl);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --bg: #fafaf9;
+  --fg: #1c1917;
+  --mt: #78716c;
+  --ac: #292524;
+  --bd: #e7e5e4;
+  --cd: #f5f5f4;
+  --hl: #d6d3d1;
+}
+
+.dark {
+  --bg: #0c0a09;
+  --fg: #fafaf9;
+  --mt: #a8a29e;
+  --ac: #e7e5e4;
+  --bd: #292524;
+  --cd: #1c1917;
+  --hl: #44403c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+::selection {
+  background: var(--fg);
+  color: var(--bg);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--hl);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--mt);
+}

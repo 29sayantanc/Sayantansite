@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:parrotapp.in)",
+      "Bash(export:*)"
+    ]
+  }
+}
