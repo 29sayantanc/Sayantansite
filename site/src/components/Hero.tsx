@@ -96,6 +96,13 @@ export default function Hero() {
             >
               Get in touch
             </a>
+            <a
+              href="/Sayantan_Chatterjee_CV.pdf"
+              download
+              className="text-sm text-muted hover:text-foreground transition-colors duration-300"
+            >
+              Download CV
+            </a>
           </motion.div>
         </div>
 
